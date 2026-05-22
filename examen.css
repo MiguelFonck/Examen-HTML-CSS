@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    background-color: rgb(5, 53, 5);
+    color: white;
+}   
+
+.principal{
+    background-color: rgb(51, 45, 45);
+    width: 70%;
+    margin: 0 auto;
+}
+
+ul{
+    border: 9px solid rgb(0, 0, 0);
+    padding: 2rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+
+li:nth-child(1){
+    background-color: rgb(90, 121, 116);
+}
+
+li:nth-child(2){
+    background-color: rgb(108, 134, 108);
+}
+
+
+li:nth-child(3){
+    background-color: rgb(172, 76, 76);
+}
+
+
+li:nth-child(4){
+    background-color: rgb(185, 103, 103)
+}
+
+
+li:nth-child(5){
+    background-color: rgb(158, 158, 84)
+}
+
+p::before{
+    content: "$";
+}
+
+ul li:first-child{
+    border-radius: 15px 15px 0px 0px ;
+}
+
+ul li:last-child{
+    border-radius: 0px 0px 15px 15px;
+}
+
